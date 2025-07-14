@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: staging
-    database: zoomcamp-airflow-444903
+    database: ny-taxi-464111
     schema: zoomcamp
       # loaded_at_field: record_loaded_at
     tables:
