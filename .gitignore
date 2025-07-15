@@ -157,6 +157,7 @@ ehthumbs.db
 Thumbs.db
 
 # Credentials and secrets
+google_credentials/
 *.json
 *.key
 *.pem
