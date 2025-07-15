@@ -7,3 +7,15 @@ seeds:
       Tabulation Areas (NTAs) and are meant to approximate neighborhoods, so you can see which
       neighborhood a passenger was picked up in, and which neighborhood they were dropped off in. 
       Includes associated service_zone (EWR, Boro Zone, Yellow Zone)
+    columns:
+      - name: locationid
+        description: Primary key for this table
+        tests:
+          - unique
+          - not_null
+      - name: borough
+        description: NYC borough name
+      - name: zone
+        description: NYC zone name  
+      - name: service_zone
+        description: Type of service zone (EWR, Boro Zone, Yellow Zone)
