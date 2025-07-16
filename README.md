@@ -1245,8 +1245,6 @@ dm_monthly_zone_revenue:
 
 ## Testing
 
-_[Video source](https://www.youtube.com/watch?v=2dNJXHFCHaY)_
-
 We have many models now, but how do we ensure that the data we deliver to the end user is correct? More importantly, how do we make sure that we don't build models on top of incorrect data? We need to identify errors quickly. For this reason, we can use DBT tests.
 
 DBT tests are assumptions we make about our data. They're essentially statements that select data we don’t want to have. If the query produces results, the test fails and stops execution immediately, preventing the building of dependent models. For example, when building a project, if the query returns no results, the test passes, the data is good, and no alerts are triggered.
@@ -1316,7 +1314,6 @@ If there are no results, the data is valid. Otherwise, it will produce warnings,
 
 ## Documentation
 
-_[Video source](https://www.youtube.com/watch?v=2dNJXHFCHaY)_
 
 dbt also provides a way to generate documentation for your dbt project and render it as a website. The dbt generated docs will include the following:
 
@@ -1469,8 +1466,6 @@ In this case, the process detected the modified fact_trips model and its childre
  workflow efficient and reliable.
 
 ## Visualising the transformed data 
-
-_[Video source](https://www.youtube.com/watch?v=39nLTs74A3E)_
 
 Now that we created our models and transformed our data, we are now going to visualize this data.
 
